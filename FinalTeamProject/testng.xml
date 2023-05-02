@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/selepratice/FinalTeamProject/src/test/java/org/example/LoginTest.java">
+        <classes>
+            <class name="org.example.LoginTest">
+                <methods>
+                    <include name="VerifyProfileTest"/>
+                    <include name="pressLogin"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/selepratice/FinalTeamProject/src/test/java/org/example/WrongCred.java">
+        <classes>
+            <class name="org.example.WrongCred">
+                <methods>
+                    <include name="VerifyProfileTest"/>
+                    <include name="pressLogin"/>
+                    <include name="enterWrongDetails"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/selepratice/FinalTeamProject/src/test/java/org/example/AppTest.java">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="VerifyProfileTest"/>
+                    <include name="pressLogin"/>
+                    <include name="enterWrongDetails"/>
+                    <include name="clearDetails"/>
+                    <include name="enterCorrectDetails"/>
+                    <include name="selectProduct"/>
+                    <include name="selectIteam"/>
+                    <include name="pressbtn"/>
+                    <include name="pressAddToCart"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
